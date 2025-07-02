@@ -6,16 +6,33 @@ export const scrollToPreviousSite = () => {
     document.querySelector('.sites__cards')!.scrollLeft -= 400
 }
 
-// @ts-ignore
 export const initSiteCardNavigation = (previousId: string, nextId: string) => {
-    // Link arrows to carousel
+    const previousButton = document.getElementById(previousId);
+    const nextButton = document.getElementById(nextId);
+    
+    if (previousButton) {
+        previousButton.addEventListener('click', scrollToPreviousSite);
+    }
+    
+    if (nextButton) {
+        nextButton.addEventListener('click', scrollToNextSite);
+    }
 }
 
-// @ts-ignore
 export const toggleDarkMode = (event: Event) => {
-    // Add toggle dark mode logic here
+    const body = document.body;
+    const checkbox = event.target as HTMLInputElement;
+    
+    if (checkbox.checked) {
+        body.setAttribute('data-theme', 'dark');
+    } else {
+        body.setAttribute('data-theme', 'light');
+    }
 }
 
 export const initDarkModeToggle = () => {
-    // Link dark mode toggle to the toggleDarkMode function
+    const toggle = document.getElementById('toggle-dark-mode') as HTMLInputElement;
+    if (toggle) {
+        toggle.addEventListener('change', toggleDarkMode);
+    }
 }

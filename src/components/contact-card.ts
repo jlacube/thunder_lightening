@@ -14,7 +14,7 @@ export const contactCard = (props: ContactCardProps) => {
             <span class="contact-card__name">${props.name}</span>
             <p class="contact-card__description" data-translate-key="${props.postKey}"></p>
         </div>
-        <a class="nj-link contact-card__link">${props.email}</a>
+        <a href="mailto:${props.email}" class="nj-link contact-card__link">${props.email}</a>
     </div>
     `
 }
