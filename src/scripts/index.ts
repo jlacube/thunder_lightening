@@ -6,9 +6,17 @@ export const scrollToPreviousSite = () => {
     document.querySelector('.sites__cards')!.scrollLeft -= 400
 }
 
-// @ts-ignore
 export const initSiteCardNavigation = (previousId: string, nextId: string) => {
-    // Link arrows to carousel
+    const previousButton = document.getElementById(previousId);
+    const nextButton = document.getElementById(nextId);
+    
+    if (previousButton) {
+        previousButton.addEventListener('click', scrollToPreviousSite);
+    }
+    
+    if (nextButton) {
+        nextButton.addEventListener('click', scrollToNextSite);
+    }
 }
 
 // @ts-ignore
