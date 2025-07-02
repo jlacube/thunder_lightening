@@ -1,25 +1,36 @@
 import {dataCard, DataCardProps} from "../components/data-card.ts";
 import cities from '../data/cities.json';
-import {Cities} from "../scripts/types.ts";
 
-const city = cities[import.meta.env.VITE_SITE_NAME as Cities];
+// Calculate totals for all cities
+const allCities = Object.values(cities);
+const totals = allCities.reduce((acc, city) => ({
+    electricity_generated_mwh: acc.electricity_generated_mwh + city.electricity_generated_mwh,
+    households_connected_to_system: acc.households_connected_to_system + city.households_connected_to_system,
+    carbon_footprint_reduced_tons: acc.carbon_footprint_reduced_tons + city.carbon_footprint_reduced_tons,
+    lightning_strikes_this_year: acc.lightning_strikes_this_year + city.lightning_strikes_this_year
+}), {
+    electricity_generated_mwh: 0,
+    households_connected_to_system: 0,
+    carbon_footprint_reduced_tons: 0,
+    lightning_strikes_this_year: 0
+});
 
 const data: DataCardProps[] = [
     {
         labelKey: 'delivered.data.label1',
-        value: city.electricity_generated_mwh
+        value: totals.electricity_generated_mwh
     },
     {
         labelKey: 'delivered.data.label2',
-        value: city.households_connected_to_system
+        value: totals.households_connected_to_system
     },
     {
         labelKey: 'delivered.data.label3',
-        value: city.carbon_footprint_reduced_tons
+        value: totals.carbon_footprint_reduced_tons
     },
     {
         labelKey: 'delivered.data.label4',
-        value: city.lightning_strikes_this_year
+        value: totals.lightning_strikes_this_year
     }
 ]
 
