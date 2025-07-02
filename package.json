@@ -1,0 +1,22 @@
+{
+  "name": "thunder-lightning-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "@engie-group/fluid-design-system": "^5.15.3",
+    "@engie-group/fluid-design-tokens": "^5.8.0"
+  }
+}

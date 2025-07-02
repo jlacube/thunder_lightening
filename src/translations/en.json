@@ -1,0 +1,101 @@
+{
+  "disclaimer": "This website and all its content has been created for internal training purpose only. All references to THUNDER & LIGHTNING are fictitious and not affiliated with ENGIE group nor with any of its subsidiaries.",
+  "hero": {
+    "title": "Harnessing the power of nature to light up cities",
+    "subtitle": "At Thunder & Lightning, we transform the raw energy of lightning into clean, sustainable electricity to power cities around the world. By tapping into the potential of iconic monuments, we convert nature’s most powerful force into energy, reducing carbon footprints and creating a brighter, greener future for everyone"
+  },
+  "post": {
+    "part1": {
+      "title": "Our inspiration",
+      "content": "The inspiration behind our innovative approach to generating electricity from lightning struck us—quite literally—during a brainstorming session about the future of renewable energy. The question we were trying to answer was simple yet profound: how can we tap into natural forces that are not yet fully harnessed for clean energy? Wind, solar, and hydroelectric power have dominated the conversation, but what about one of nature’s most powerful and unpredictable forces: lightning?"
+    },
+    "part2": {
+      "title": "The Untapped Power of Lightning",
+      "content": "For centuries, lightning has been a source of both fascination and fear. Its raw power can light up the sky, split trees, and even cause widespread blackouts. And yet, despite the immense amount of energy it generates, very little has been done to capture this natural phenomenon as a usable source of power. According to scientific research, a single lightning strike can generate up to 1 billion volts of electricity—an amount that, if harnessed, could power hundreds of homes instantly.\n\nThis realization sparked a question in our minds: what if we could capture this energy and use it to generate clean electricity for urban areas? The answer led to our groundbreaking idea: using iconic monuments, which are often struck by lightning, as conduits to capture and store that energy. By converting lightning strikes on these structures into usable power, we could create a new frontier in renewable energy."
+    },
+    "part3": {
+      "title": "Why Monuments?",
+      "content": "When thinking about the best way to capture lightning in urban areas, monuments came to mind almost immediately. These towering structures often act as natural lightning rods, standing tall amidst the city skyline, and are frequently struck during thunderstorms. But until now, these strikes have been seen as destructive rather than productive.\n\nMonuments like the Eiffel Tower, Big Ben, and the Statue of Liberty have long stood as symbols of human ingenuity and perseverance. We saw an opportunity to build on that legacy, transforming these landmarks into beacons of sustainability. By outfitting them with the right technology to capture and store electricity from lightning strikes, we could turn a natural, destructive force into a sustainable source of power for millions."
+    },
+    "part4": {
+      "title": "From Concept to Reality",
+      "content": "The road from concept to reality wasn’t an easy one. The first challenge was the unpredictable nature of lightning itself. Unlike solar or wind energy, lightning doesn’t strike on a regular basis, and it’s hard to predict exactly when or where it will hit. This led us to explore new technologies capable of both capturing and storing large amounts of energy in a short time.\n\nNext, we needed to consider the safety and structural implications of using monuments as lightning capture systems. Each monument has unique characteristics—its height, material, and design all affect how it interacts with lightning. By partnering with engineers, architects, and renewable energy experts, we were able to develop customized solutions for each landmark, ensuring that the infrastructure could safely and efficiently capture energy without damaging the structure itself.\n\n"
+    },
+    "part5": {
+      "title": "A Vision for the Future",
+      "content": "Our goal is to revolutionize how we think about energy production, taking what was once considered a chaotic and unpredictable force and transforming it into something useful and sustainable. The idea of using lightning to power cities is not just a concept—it’s a vision for the future of energy.\n\nWe believe that by continuing to innovate and push the boundaries of renewable energy technology, we can reduce our reliance on fossil fuels and create a cleaner, greener world for future generations. Harnessing the power of lightning is just the beginning. With further advancements, we envision a world where every lightning strike contributes to powering homes, reducing carbon emissions, and improving the quality of life for people everywhere.\n\n"
+    }
+  },
+  "delivered": {
+    "title": "Lightning-powered cities: a global initiative",
+    "subtitle": "An overview of how iconic monuments across the world contribute to a greener future through lightning-powered electricity, reducing carbon emissions and supporting sustainable urban growth.",
+    "data": {
+      "label1": "Electricity generated (MWh)",
+      "label2": "Households connected to system",
+      "label3": "Carbon footprint reduced (tons)",
+      "label4": "Lightning strikes this year"
+    }
+  },
+  "sites": {
+    "title": "Discover our partner cities",
+    "alt": {
+      "previous": "Previous sites",
+      "next": "Next sites"
+    },
+    "cards": {
+      "brussels": {
+        "name": "Visit Brussels and the Atomium",
+        "description": "Uncover the innovative use of the Atomium in Brussels, where lightning strikes are being transformed into clean energy for the city."
+      },
+      "london": {
+        "name": "Discover London and Big Ben",
+        "description": "Explore London’s efforts in sustainable energy with Big Ben playing a pivotal role in lightning-powered electricity generation."
+      },
+      "new-york": {
+        "name": "Discover New York and the Statue of Liberty",
+        "description": "See how New York integrates lightning energy with the iconic Statue of Liberty, powering the city while reducing its carbon footprint."
+      },
+      "paris": {
+        "name": "Explore Paris and the Eiffel Tower",
+        "description": "Visit the official website of Paris to learn more about how the Eiffel Tower contributes to powering the city with lightning energy."
+      },
+      "sydney": {
+        "name": "Visit Sydney and the Opera House",
+        "description": "Learn about Sydney’s Opera House and its role in transforming lightning into electricity, leading the way in clean energy innovation."
+      },
+      "tokyo": {
+        "name": "Explore Tokyo and the Tokyo Tower",
+        "description": "Dive into Tokyo’s energy initiatives, with the Tokyo Tower standing tall as a beacon of sustainable lightning energy."
+      },
+      "cairo": {
+        "name": "Discover Cairo and the Great Pyramids",
+        "description": "Experience how Cairo harnesses lightning strikes to generate clean energy, with the Great Pyramids as the center of innovation."
+      },
+      "dubai": {
+        "name": "Explore Dubai and the Burj Khalifa",
+        "description": "Discover Dubai’s groundbreaking use of the Burj Khalifa in capturing lightning energy, leading the city toward a sustainable future."
+      },
+      "kuala-lumpur": {
+        "name": "Visit Kuala Lumpur and the Petronas Towers",
+        "description": "Learn how Kuala Lumpur transforms lightning strikes into clean energy with the iconic Petronas Towers at the forefront of this initiative."
+      },
+      "washington": {
+        "name": "Discover Washington and the Washington Monument",
+        "description": "Explore how Washington D.C. utilizes the Washington Monument to capture lightning energy, providing sustainable electricity for the city."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Get in touch with our team",
+    "content": "Our dedicated experts are here to answer your questions and provide insights into our innovative lightning energy solutions.\nFeel free to reach out to any of our team members.",
+    "cards": {
+      "job1": "Head of Digital & IT",
+      "job2": "Production manager",
+      "job3": "Mr. 100kV"
+    }
+  },
+  "footer": {
+    "disclaimer": "This website and all its content has been created for internal training purpose only. All references to THUNDER & LIGHTNING are fictitious and not affiliated with ENGIE group nor with any of its subsidiaries."
+  }
+}

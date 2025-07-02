@@ -1,0 +1,92 @@
+{
+  "paris": {
+    "monument": "eiffel_tower",
+    "electricity_generated_mwh": 1200,
+    "percentage_of_city_energy_from_lightning": 15,
+    "carbon_footprint_reduced_tons": 8000,
+    "lightning_strikes_this_year": 350,
+    "households_connected_to_system": 20000,
+    "total_households_in_city": 1000000
+  },
+  "london": {
+    "monument": "big_ben",
+    "electricity_generated_mwh": 950,
+    "percentage_of_city_energy_from_lightning": 12,
+    "carbon_footprint_reduced_tons": 6000,
+    "lightning_strikes_this_year": 290,
+    "households_connected_to_system": 15000,
+    "total_households_in_city": 900000
+  },
+  "brussels": {
+    "monument": "atomium",
+    "electricity_generated_mwh": 800,
+    "percentage_of_city_energy_from_lightning": 10,
+    "carbon_footprint_reduced_tons": 5500,
+    "lightning_strikes_this_year": 180,
+    "households_connected_to_system": 12000,
+    "total_households_in_city": 800000
+  },
+  "tokyo": {
+    "monument": "tokyo_tower",
+    "electricity_generated_mwh": 1400,
+    "percentage_of_city_energy_from_lightning": 18,
+    "carbon_footprint_reduced_tons": 10000,
+    "lightning_strikes_this_year": 420,
+    "households_connected_to_system": 30000,
+    "total_households_in_city": 14000000
+  },
+  "new-york": {
+    "monument": "statue_of_liberty",
+    "electricity_generated_mwh": 1100,
+    "percentage_of_city_energy_from_lightning": 14,
+    "carbon_footprint_reduced_tons": 7500,
+    "lightning_strikes_this_year": 310,
+    "households_connected_to_system": 22000,
+    "total_households_in_city": 3000000
+  },
+  "sydney": {
+    "monument": "sydney_opera_house",
+    "electricity_generated_mwh": 1000,
+    "percentage_of_city_energy_from_lightning": 13,
+    "carbon_footprint_reduced_tons": 7000,
+    "lightning_strikes_this_year": 270,
+    "households_connected_to_system": 18000,
+    "total_households_in_city": 1600000
+  },
+  "cairo": {
+    "monument": "great_pyramids",
+    "electricity_generated_mwh": 850,
+    "percentage_of_city_energy_from_lightning": 11,
+    "carbon_footprint_reduced_tons": 5000,
+    "lightning_strikes_this_year": 200,
+    "households_connected_to_system": 14000,
+    "total_households_in_city": 9500000
+  },
+  "dubai": {
+    "monument": "burj_khalifa",
+    "electricity_generated_mwh": 1200,
+    "percentage_of_city_energy_from_lightning": 15,
+    "carbon_footprint_reduced_tons": 8000,
+    "lightning_strikes_this_year": 340,
+    "households_connected_to_system": 22000,
+    "total_households_in_city": 3300000
+  },
+  "kuala-lumpur": {
+    "monument": "petronas_towers",
+    "electricity_generated_mwh": 1050,
+    "percentage_of_city_energy_from_lightning": 13,
+    "carbon_footprint_reduced_tons": 7200,
+    "lightning_strikes_this_year": 310,
+    "households_connected_to_system": 18000,
+    "total_households_in_city": 1800000
+  },
+  "washington": {
+    "monument": "washington_monument",
+    "electricity_generated_mwh": 950,
+    "percentage_of_city_energy_from_lightning": 12,
+    "carbon_footprint_reduced_tons": 6000,
+    "lightning_strikes_this_year": 280,
+    "households_connected_to_system": 16000,
+    "total_households_in_city": 700000
+  }
+}

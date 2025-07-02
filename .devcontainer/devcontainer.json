@@ -1,0 +1,16 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+    "customizations": {
+        "vscode": {
+            "settings": {
+            },
+            "extensions": [
+                "GitHub.vscode-pull-request-github",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "GitHub.remotehub"
+            ]
+        }
+    },
+    "postCreateCommand": "pnpm install"    
+}
