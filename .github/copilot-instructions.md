@@ -1,6 +1,8 @@
 # Copilot Instructions for Thunder & Lightning Website
 
 **IMPORTANT: User validation is done through the website interface. Coding agent validation should be done through code analysis and programmatic tests.**
+**Don't try to run the website to validate changes, it doesn't work.**
+**Write some tests to validate your changes.**
 
 ## Development Environment Setup
 
